@@ -2,7 +2,7 @@
   "latestVersionCode": 5,
   "latestVersionName": "0.1.4",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkrnd/beebox-warehouse-releases/releases/download/v0.1.4/beebox-warehouse.apk",
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.4/beebox-warehouse.apk",
   "sha256": "c618e64f146103c4c7bbf450b499b9009845b5c81a1c62997867b00ec66295a3",
   "releaseNotes": "fix(auth): officeType is a number, not a string (0.1.4)\n\nGatekeeper returns validate.officeType as a JSON number (confirmed against the\nportal's ValidateModel: officeType: number). The app modeled it as String, so\nvalidate parsing threw SerializationException → sign-in reported failure even\nthough sign-in + validate both returned 200. Change ValidateData/UserIdentity\nofficeType to Int; isWarehouseAdmin compares to 1. Tests updated. bump 0.1.4.",
   "publishedAt": "2026-06-22T05:42:39Z"
