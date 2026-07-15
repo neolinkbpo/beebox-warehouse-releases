@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 7,
-  "latestVersionName": "0.1.6",
+  "latestVersionCode": 8,
+  "latestVersionName": "0.1.7",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.6/beebox-warehouse.apk",
-  "sha256": "a96050ff010abe51e76b09babb54345076c5cfda28af4a3f9eb0643fad98954e",
-  "releaseNotes": "Merge pull request #7 from neolinkbpo/fix/m4e-ux-errorlog\n\nfix(ux): session-expiry messaging, in-app error log, clearer product-create dialog",
-  "publishedAt": "2026-07-15T07:19:29Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.7/beebox-warehouse.apk",
+  "sha256": "7971eb744c0e2529ea135ffe49881da7c95657dc2199b416f98ede79c6f944ca",
+  "releaseNotes": "feat(stock): unknown code offers scan-to-create product (#9)\n\n* feat(stock): unknown code offers scan-to-create product\n\nStock lookup dead-ended on 'Product not found' with no way forward. Now a 404 shows '+ Create product \"CODE\"' which jumps to Products with the create dialog open and the part number prefilled; after creating, lookup works. Other lookup failures (network/session) are no longer mislabeled as product-not-found.\n\n* feat(stock): product-first flow — select/search, then batch-scan serials\n\nReworked per Hans: pick the product FIRST (search list, or scan any product label to select it), choose stock in/out, then rapid-scan serials — every accepted scan books one movement immediately through the offline outbox, duplicates within the session are flagged and ignored. Bulk products take a quantity; scanning their own label bumps it +1. Delivery use case: select 'E4BL tag', stock-in mode, scan-scan-scan the new serials.\n\nAdjust stays on the session screen; recent outbox list unchanged; unknown code still offers scan-to-create.\n\n* test(stock): FakeApi implements the new products() endpoint",
+  "publishedAt": "2026-07-15T11:15:51Z"
 }
