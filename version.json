@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 5,
-  "latestVersionName": "0.1.4",
+  "latestVersionCode": 6,
+  "latestVersionName": "0.1.5",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.4/beebox-warehouse.apk",
-  "sha256": "67954064d84178f53406da2f9e2ff6e85a8e350b33255cd44281e29af9aca1bd",
-  "releaseNotes": "Merge pull request #4 from neolinkbpo/feat/release-button\n\nrelease: add a one-click Release button (workflow_dispatch)",
-  "publishedAt": "2026-07-15T04:53:11Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.5/beebox-warehouse.apk",
+  "sha256": "7b16e443448feab8649346499413dd0167dabce4e5381e67cf6b381e8e612820",
+  "releaseNotes": "Merge pull request #6 from neolinkbpo/feat/release-version-input\n\nrelease: pick the version on the button (auto patch-bump or manual)",
+  "publishedAt": "2026-07-15T06:20:16Z"
 }
