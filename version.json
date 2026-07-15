@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 6,
-  "latestVersionName": "0.1.5",
+  "latestVersionCode": 7,
+  "latestVersionName": "0.1.6",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.5/beebox-warehouse.apk",
-  "sha256": "7b16e443448feab8649346499413dd0167dabce4e5381e67cf6b381e8e612820",
-  "releaseNotes": "Merge pull request #6 from neolinkbpo/feat/release-version-input\n\nrelease: pick the version on the button (auto patch-bump or manual)",
-  "publishedAt": "2026-07-15T06:20:16Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.6/beebox-warehouse.apk",
+  "sha256": "a96050ff010abe51e76b09babb54345076c5cfda28af4a3f9eb0643fad98954e",
+  "releaseNotes": "Merge pull request #7 from neolinkbpo/fix/m4e-ux-errorlog\n\nfix(ux): session-expiry messaging, in-app error log, clearer product-create dialog",
+  "publishedAt": "2026-07-15T07:19:29Z"
 }
