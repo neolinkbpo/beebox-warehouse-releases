@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 9,
-  "latestVersionName": "0.1.8",
+  "latestVersionCode": 10,
+  "latestVersionName": "0.1.9",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.8/beebox-warehouse.apk",
-  "sha256": "d970c76edac065b05ddf6f0b672b90ef6a8478b3427300fac34b5eaaf20833c3",
-  "releaseNotes": "Merge pull request #10 from neolinkbpo/feat/camera-dock\n\nfeat(scan): camera feed docked at the bottom instead of floating overlay",
-  "publishedAt": "2026-07-15T12:09:37Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.9/beebox-warehouse.apk",
+  "sha256": "d22df9003e2c0281a0b476e74613f6e3a58c79da47637fdc3ded53fca62e7ea9",
+  "releaseNotes": "Merge pull request #14 from neolinkbpo/feat/count-capture\n\nfeat(count): shelf-count capture screen — the missing half of the cou…",
+  "publishedAt": "2026-07-16T08:47:41Z"
 }
