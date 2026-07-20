@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 11,
-  "latestVersionName": "0.1.10",
+  "latestVersionCode": 12,
+  "latestVersionName": "0.1.11",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.10/beebox-warehouse.apk",
-  "sha256": "9bdf9223d22ac284c8aea558ef53b95c9da08f163b20ee0cfca30ae654ca1893",
-  "releaseNotes": "Merge pull request #15 from neolinkbpo/feat/warehouse-selector\n\nfeat(settings): persistent warehouse selector — the acting office for all warehouse work",
-  "publishedAt": "2026-07-17T06:18:59Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.11/beebox-warehouse.apk",
+  "sha256": "89e4bcf86347f571f5e36ecb6fe00006595acd5fc63a3d208f75990b276fb6d7",
+  "releaseNotes": "Merge pull request #18 from neolinkbpo/feat/box-detail-scan-normalize\n\nfeat(workflow): box-sticker normalization (3 generations) + box detai…",
+  "publishedAt": "2026-07-20T07:16:41Z"
 }
