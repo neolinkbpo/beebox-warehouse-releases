@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 13,
-  "latestVersionName": "0.1.12",
+  "latestVersionCode": 14,
+  "latestVersionName": "0.1.13",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.12/beebox-warehouse.apk",
-  "sha256": "297a29a152abb6481b73888ba80ed5662ecfa05a234cc9e2f91676fafb6a0643",
-  "releaseNotes": "Merge pull request #19 from neolinkbpo/feat/warehouse-picker-filter\n\nfeat(settings): warehouse picker shows only warehouse offices",
-  "publishedAt": "2026-07-21T10:23:41Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.13/beebox-warehouse.apk",
+  "sha256": "6c711cd5747c8587457c20251e7b2b8bb95cb011b2ff98620a3408fc0650accb",
+  "releaseNotes": "fix(assembly): finalize sends only PCMs; coded 400 texts (BBL-242)\n\nThe finalize PATCH body is now exactly { pcms }. startDate is stamped by\nthe server when preconfigure creates the config, and logistic #148\nrefuses any startDate / endDate key on the PATCH with 400\nCONFIG_WINDOW_NOT_EDITABLE. GatewayErrors.toAppError passes a coded 400\nthrough as the server's text (uncoded 400s stay HTTP 400), so an older\nbuild meeting the new server reads why finalize failed.\n\nTests: wire test (real Retrofit + production Json) pins the PATCH body to\nthe single pcms key; coded/uncoded 400 mapping; finalize 400 text.\n\n\nClaude-Session: https://claude.ai/code/session_01LRngbtqzMs722hP5NVGUxi\n\nCo-authored-by: Claude Opus 5.5 <noreply@anthropic.com>",
+  "publishedAt": "2026-09-29T12:53:01Z"
 }
