@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 14,
-  "latestVersionName": "0.1.13",
+  "latestVersionCode": 15,
+  "latestVersionName": "0.1.14",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.13/beebox-warehouse.apk",
-  "sha256": "6c711cd5747c8587457c20251e7b2b8bb95cb011b2ff98620a3408fc0650accb",
-  "releaseNotes": "fix(assembly): finalize sends only PCMs; coded 400 texts (BBL-242)\n\nThe finalize PATCH body is now exactly { pcms }. startDate is stamped by\nthe server when preconfigure creates the config, and logistic #148\nrefuses any startDate / endDate key on the PATCH with 400\nCONFIG_WINDOW_NOT_EDITABLE. GatewayErrors.toAppError passes a coded 400\nthrough as the server's text (uncoded 400s stay HTTP 400), so an older\nbuild meeting the new server reads why finalize failed.\n\nTests: wire test (real Retrofit + production Json) pins the PATCH body to\nthe single pcms key; coded/uncoded 400 mapping; finalize 400 text.\n\n\nClaude-Session: https://claude.ai/code/session_01LRngbtqzMs722hP5NVGUxi\n\nCo-authored-by: Claude Opus 5.5 <noreply@anthropic.com>",
-  "publishedAt": "2026-09-29T12:53:01Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.14/beebox-warehouse.apk",
+  "sha256": "f1b437494734df3959041cc592a1e12ad715334e1bec46618b2970fd95389fbd",
+  "releaseNotes": "Dev | Prod switch on the sign-in screen (new installs start on Prod; handhelds already used on dev keep Dev; DEV badge on Home and Settings). Parts are matched by kind, walk-in parts can leave as Sold, Rental or Pay per shipment, plates that join the customer's PCM pool are shown as such, purchases carry a SALE marker, requests say who preconditions. New: Parts run (one destination, many parts) and bulk product outbound by quantity. Note: the prod backend does not have the new part features yet (parts by kind, walk-in rental, pool replies) until logistic is promoted; the app handles the older server.",
+  "publishedAt": "2026-11-17T04:59:34Z"
 }
