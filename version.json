@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 15,
-  "latestVersionName": "0.1.14",
+  "latestVersionCode": 16,
+  "latestVersionName": "0.1.15",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.14/beebox-warehouse.apk",
-  "sha256": "f1b437494734df3959041cc592a1e12ad715334e1bec46618b2970fd95389fbd",
-  "releaseNotes": "Dev | Prod switch on the sign-in screen (new installs start on Prod; handhelds already used on dev keep Dev; DEV badge on Home and Settings). Parts are matched by kind, walk-in parts can leave as Sold, Rental or Pay per shipment, plates that join the customer's PCM pool are shown as such, purchases carry a SALE marker, requests say who preconditions. New: Parts run (one destination, many parts) and bulk product outbound by quantity. Note: the prod backend does not have the new part features yet (parts by kind, walk-in rental, pool replies) until logistic is promoted; the app handles the older server.",
-  "publishedAt": "2026-11-17T04:59:34Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.15/beebox-warehouse.apk",
+  "sha256": "c7218a4a24c42fe26e25ce262b7f5fa2a400b099e1377f9587f001e6336f71a0",
+  "releaseNotes": "Stock handling: an unknown scan can now be attached to an existing product (Attach to an existing product) instead of only creating a new one; from then on that barcode or QR code selects the product, in stock handling and in the count. The product page lists a product's scan codes with Remove. Seal cards are booked by serial, one scan per piece (they could not be booked before). A booking the server refuses now reads NOT booked with the reason.",
+  "publishedAt": "2026-11-18T10:39:42Z"
 }
