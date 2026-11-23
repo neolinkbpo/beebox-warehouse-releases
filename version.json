@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 16,
-  "latestVersionName": "0.1.15",
+  "latestVersionCode": 17,
+  "latestVersionName": "0.1.16",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.15/beebox-warehouse.apk",
-  "sha256": "c7218a4a24c42fe26e25ce262b7f5fa2a400b099e1377f9587f001e6336f71a0",
-  "releaseNotes": "Stock handling: an unknown scan can now be attached to an existing product (Attach to an existing product) instead of only creating a new one; from then on that barcode or QR code selects the product, in stock handling and in the count. The product page lists a product's scan codes with Remove. Seal cards are booked by serial, one scan per piece (they could not be booked before). A booking the server refuses now reads NOT booked with the reason.",
-  "publishedAt": "2026-11-18T10:39:42Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.16/beebox-warehouse.apk",
+  "sha256": "99f7de3b7e564b72df14a63b9b29300ef3669c936f8ebc92967233f1cd158c76",
+  "releaseNotes": "Stock handling: the Back button is now at the top and stays reachable; the booking part below it scrolls, also with the camera strip open.",
+  "publishedAt": "2026-11-23T10:13:48Z"
 }
