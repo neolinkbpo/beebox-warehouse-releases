@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 17,
-  "latestVersionName": "0.1.16",
+  "latestVersionCode": 18,
+  "latestVersionName": "0.1.17",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.16/beebox-warehouse.apk",
-  "sha256": "99f7de3b7e564b72df14a63b9b29300ef3669c936f8ebc92967233f1cd158c76",
-  "releaseNotes": "Stock handling: the Back button is now at the top and stays reachable; the booking part below it scrolls, also with the camera strip open.",
-  "publishedAt": "2026-11-23T10:13:48Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.17/beebox-warehouse.apk",
+  "sha256": "307adfa5577e966e0834a6295f7d2e68b39bce6ac2a9015e527e104da8ff684c",
+  "releaseNotes": "Count: no scan is lost any more — every scan gets a line and is sent in the background; a refused scan beeps, vibrates and stays pinned until confirmed; scans wait and retry without a connection. Stock handling: each scan shows what happened (moved to stock, already in stock, removed from stock, or not booked and why).",
+  "publishedAt": "2026-11-25T06:27:41Z"
 }
