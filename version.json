@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 18,
-  "latestVersionName": "0.1.17",
+  "latestVersionCode": 19,
+  "latestVersionName": "0.1.18",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.17/beebox-warehouse.apk",
-  "sha256": "307adfa5577e966e0834a6295f7d2e68b39bce6ac2a9015e527e104da8ff684c",
-  "releaseNotes": "Count: no scan is lost any more — every scan gets a line and is sent in the background; a refused scan beeps, vibrates and stays pinned until confirmed; scans wait and retry without a connection. Stock handling: each scan shows what happened (moved to stock, already in stock, removed from stock, or not booked and why).",
-  "publishedAt": "2026-11-25T06:27:41Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.18/beebox-warehouse.apk",
+  "sha256": "ca9785550c23e5995f096da70a238ae85232f27328822bf415b7f0191eac1a21",
+  "releaseNotes": "Combined codes like BBBP312+18C;000592 are now understood: the product is selected and the piece is booked and counted under its serial; a bulk label like BBLP05; finds its product. Zebra: scans are no longer also typed into text fields.",
+  "publishedAt": "2026-11-26T01:57:30Z"
 }
