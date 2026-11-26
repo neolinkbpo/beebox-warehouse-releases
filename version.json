@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 23,
-  "latestVersionName": "0.1.22",
+  "latestVersionCode": 24,
+  "latestVersionName": "0.1.23",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.22/beebox-warehouse.apk",
-  "sha256": "db21373bbddac0264055e2b12d0fff59a323c1a7e84c23bb6f444f8a483c48fb",
-  "releaseNotes": "Last scan wins: a plate, tracker or tag that the records still have in another box can be scanned into a box (outbound, build box, pick list) - the server takes it off the old box. Stock handling shows 'taken off box X'.",
-  "publishedAt": "2026-11-26T09:53:16Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.23/beebox-warehouse.apk",
+  "sha256": "580a7fdebe11b80044e823c789ddbc4911211a616538305b04c69acd6f906c91",
+  "releaseNotes": "Zebra scanner: the scanner profile is set up in a way older Zebra devices accept; Settings > Scan test shows the scanner status. Outbound: the office list now loads for the warehouse account. Accounts without warehouse access see a 'No access' screen.",
+  "publishedAt": "2026-11-26T12:13:37Z"
 }
