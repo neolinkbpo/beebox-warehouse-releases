@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 24,
-  "latestVersionName": "0.1.23",
+  "latestVersionCode": 25,
+  "latestVersionName": "0.1.24",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.23/beebox-warehouse.apk",
-  "sha256": "580a7fdebe11b80044e823c789ddbc4911211a616538305b04c69acd6f906c91",
-  "releaseNotes": "Zebra scanner: the scanner profile is set up in a way older Zebra devices accept; Settings > Scan test shows the scanner status. Outbound: the office list now loads for the warehouse account. Accounts without warehouse access see a 'No access' screen.",
-  "publishedAt": "2026-11-26T12:13:37Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.24/beebox-warehouse.apk",
+  "sha256": "5f6c90583d86085f769941b847cfd4446be599f01fdd75d017e5b31bc3e336f6",
+  "releaseNotes": "Equip: a tracker or tag that does not report can be ignored with a note, so the box can be set Ready (needs the server update of 26 Nov evening).",
+  "publishedAt": "2026-11-26T12:51:40Z"
 }
