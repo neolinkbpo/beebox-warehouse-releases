@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 21,
-  "latestVersionName": "0.1.20",
+  "latestVersionCode": 22,
+  "latestVersionName": "0.1.21",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.20/beebox-warehouse.apk",
-  "sha256": "f48f32fb7fa90e6a26bfdd638866fb5769260be314456cb57cfa8226aa855a4f",
-  "releaseNotes": "The home screen opens its workflows for every account with the Warehouse permission (was: administrative office only).",
-  "publishedAt": "2026-11-26T08:34:41Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.21/beebox-warehouse.apk",
+  "sha256": "b0e33dac63ec2be85df93197c0fbebeabeae336df61f448c2ac486264ceee74f",
+  "releaseNotes": "Box matrix labels (box type;number, e.g. BB24L120H;000118) are read as the box number.",
+  "publishedAt": "2026-11-26T08:46:35Z"
 }
