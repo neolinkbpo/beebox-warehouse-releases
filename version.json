@@ -1,9 +1,9 @@
 {
-  "latestVersionCode": 22,
-  "latestVersionName": "0.1.21",
+  "latestVersionCode": 23,
+  "latestVersionName": "0.1.22",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.21/beebox-warehouse.apk",
-  "sha256": "b0e33dac63ec2be85df93197c0fbebeabeae336df61f448c2ac486264ceee74f",
-  "releaseNotes": "Box matrix labels (box type;number, e.g. BB24L120H;000118) are read as the box number.",
-  "publishedAt": "2026-11-26T08:46:35Z"
+  "apkUrl": "https://github.com/neolinkbpo/beebox-warehouse-releases/releases/download/v0.1.22/beebox-warehouse.apk",
+  "sha256": "db21373bbddac0264055e2b12d0fff59a323c1a7e84c23bb6f444f8a483c48fb",
+  "releaseNotes": "Last scan wins: a plate, tracker or tag that the records still have in another box can be scanned into a box (outbound, build box, pick list) - the server takes it off the old box. Stock handling shows 'taken off box X'.",
+  "publishedAt": "2026-11-26T09:53:16Z"
 }
